@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "TKScanKit"
-  s.version      = "0.1.2"
+  s.version      = "0.1.3"
   s.summary      = 'Use multiple scanning SDKs with one clean API.'
   s.description  = <<-DESC
   TKScanKit is a Cocoapods only library, inspired by ARAnalytics, which provides a clean API for different scanning SDKs. It does this by using subspecs from CocoaPods to let you decide which libraries you'd like to use."
@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.homepage     = "http://github.com/xslim/TKScanKit"
   s.license      = {:type => 'MIT', :file => 'LICENSE' }
   s.author       = { "Taras Kalapun" => "t.kalapun@gmail.com" }
-  s.source       = { :git => "https://github.com/xslim/TKScanKit.git", :tag => s.version.to_s}
+  s.source       = { :git => "https://github.com/kartel/TKScanKit.git", :tag => s.version.to_s}
 
   s.ios.deployment_target = '7.0'
   # s.osx.deployment_target = '10.7'
