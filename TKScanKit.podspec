@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
 #  mdcbarcodepicker = { :spec_name => "MDCBarcodePicker" }
 
 
-  $all_analytics = [zbarsdk, ios7scanningvc, scanditsdk]
+  $all_analytics = [zbarsdk]
 
   s.subspec "CoreIOS" do |ss|
     ss.source_files =  ['*.{h,m}', 'TKScanningProvider.{h,m}', 'Providers/TKScanKitProviders.h']

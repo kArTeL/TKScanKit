@@ -1,4 +1,9 @@
-pod "TKScanKit", :path => "../"
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '9.0'
+inhibit_all_warnings!
+
+target 'TKScanKitApp' do
+  pod "TKScanKit", :path => "../"
 
 pod "TKScanKit/ZBarSDK", :path => "../"
 pod "TKScanKit/IOS7ScanningVC", :path => "../"
@@ -17,3 +22,6 @@ if File.exist?("../../External/MDCBarcodePicker.podspec")
 else
   puts "No MDCBarcodePicker found"
 end
+
+end
+
